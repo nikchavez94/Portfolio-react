@@ -1,0 +1,26 @@
+/* src/components/projects/projects.css */
+.card-image {
+    border-radius: 10px;
+    object-fit: contain; /* Ensure the entire image is shown within the container */
+    width: 100%; /* Ensure the image takes the full width of its container */
+    height: 100%; /* Ensure the image takes the full height of its container */
+  }
+
+.card {
+    margin: 5px;
+    padding: 30px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 10px 30px 100px rgba(98, 101, 185, 0.1);
+  }
+
+.cards-container {
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: center; /* Center the items horizontally */
+    gap: 20px; /* Add some space between cards */
+  }
+
+.projects-container {
+    padding: 20px;
+    text-align: center;
+  }

@@ -1,0 +1,24 @@
+.Nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    align-items: center;
+    padding: 2rem;
+    height: 3rem;
+    background-color: #6f89a2;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.Nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.Nav li {
+    list-style: none;
+}
+
+.Nav a:hover {
+    color: #5d56e1;
+}
+
