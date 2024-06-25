@@ -12,6 +12,7 @@
     border: 2px solid #ccc;
     border-radius: 5px;
     box-shadow: 10px 30px 100px rgba(98, 101, 185, 0.1);
+    background-color: #fff;
   }
 
 .cards-container {
@@ -23,4 +24,15 @@
 .projects-container {
     padding: 20px;
     text-align: center;
+  }
+
+  .card:hover {
+    box-shadow: 0 20px 40px rgba(174, 94, 14, 0.503);
+    transition: box-shadow .3s ease;
+  }
+
+  .projects-container {
+    padding: 20px;
+    text-align: center;
+    color: #f27059; /* Set font color to f27059 */
   }
