@@ -1,0 +1,24 @@
+.about-me-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* Align items vertically centered */
+    padding: 20px;
+  }
+  
+  .about-me-content {
+    flex: 1; /* Take up remaining space */
+    padding-right: 50px, !important; /* Add space between content and image */
+  }
+  
+  .about-me-image-container {
+    flex-shrink: 0; /* Prevent the image container from shrinking */
+    margin-left: 50px; 
+  }
+  
+  .about-me-image {
+    width: 400px;
+    height: auto;
+    border-radius: 15px; /* Creates rounded corners */
+    object-fit: cover;
+    border: 2px solid #ccc;
+  }
