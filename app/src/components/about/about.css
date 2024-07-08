@@ -1,18 +1,39 @@
+.hero-image-section {
+  display: block;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  background-color: none; 
+}
+
+.do-something-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover the entire container */
+  border-radius: 0; /* Remove any border radius */
+  border: none; /* Remove any border */
+}
+
+.hero-image-container {
+  width: 100%; /* Make the container full width */
+  height: 60%; /* Make the container full height */
+  display: flex;
+  justify-content: center; 
+}
 .about-me-section {
-    display: flex;
-    justify-content: space-around;
-    align-items: center; /* Align items vertically centered */
-    padding: 20px;
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: flex-start;
+  padding: 20px;
+  margin-top: 10%;
   }
   
   .about-me-content {
-    flex: 1; /* Take up remaining space */
-    padding-right: 50px, !important; /* Add space between content and image */
+    padding-right: 150px !important; /* Add space between content and image */
+    padding-left: 200px;
   }
-  
+
   .about-me-image-container {
     flex-shrink: 0; /* Prevent the image container from shrinking */
-    margin-left: 50px; 
   }
   
   .about-me-image {
@@ -21,4 +42,21 @@
     border-radius: 15px; /* Creates rounded corners */
     object-fit: cover;
     border: 2px solid #ccc;
+  }
+
+  @media (max-width: 768px) {
+    .about-me-section {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      align-items: center; /* Center items horizontally */
+    }
+  
+    .about-me-content {
+      padding-right: 0; /* Remove right padding */
+      padding-bottom: 20px; /* Add bottom padding for spacing */
+    }
+  
+    .about-me-image {
+      width: 100%; /* Make the image take full width on small screens */
+      max-width: 400px; /* Ensure the image doesn't get too large */
+    }
   }
