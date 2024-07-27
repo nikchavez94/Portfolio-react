@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css'; 
 import ProfilePic from '../../assets/ProfilePic.jpg';
-import HeroImage from '../../assets/HeroImage.jpg'; // Ensure this path is correct
+import HeroImage from '../../assets/dosomething.jpg'; // Ensure this path is correct
 
 const About = () => {
   return (
